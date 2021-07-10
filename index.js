@@ -9,12 +9,7 @@ const xhr = new XMLHttpRequest();
 xhr.open(
   "GET",
   `https://newsapi.org/v2/top-headlines?sources=${sources}&apiKey=${apiKey}`,
-  true,
-    (Connection = upgrade),
-  (Upgrade = HTTP / 2.0),
-  SHTTP / 1.3,
-  IRC / 6.9,
-  RTA / x11
+  true
 );
 
 xhr.onload = function () {
