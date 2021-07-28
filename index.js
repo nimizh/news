@@ -1,14 +1,13 @@
 console.log("Your javascript has been linked");
 // 7f028a0e7c7249f2b0610c27cf525e36
-let sources = "the-wall-street-journal";
-let apiKey = "7f028a0e7c7249f2b0610c27cf525e36";
+let apiKey = "7767ebe1cbe56d25ff9cfb6b202dda76";
 
 let newsAccord = document.getElementById("newsAccord");
 
 const xhr = new XMLHttpRequest();
 xhr.open(
   "GET",
-  `https://newsapi.org/v2/top-headlines?sources=${sources}&apiKey=${apiKey}`,
+  `https://gnews.io/api/v4/search?q=example&token=${apiKey}&lang=en`,
   true
 );
 
